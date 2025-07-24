@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { MapPin, Mail, Phone, Linkedin, Github } from 'lucide-react';
-import praveenProfile from '@/assets/praveen-profile.jpg';
+const praveenProfileUrl = '/lovable-uploads/985b5081-67d4-42f6-8e11-d76fd25162ff.png';
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -112,7 +112,7 @@ const Hero = () => {
             <Card className="card-gradient p-1 rounded-full">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden relative">
                 <img
-                  src={praveenProfile}
+                  src={praveenProfileUrl}
                   alt="Praveen Kumar Tiwari"
                   className="w-full h-full object-cover animate-float"
                 />
